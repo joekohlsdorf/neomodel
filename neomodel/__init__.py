@@ -23,7 +23,7 @@ __email__ = 'robin.ge@gmail.com'
 __license__ = 'MIT'
 __package__ = 'neomodel'
 if (sys.version_info.major, sys.version_info.minor) >= (3, 8):
-    return "4.0.2"
+    neo_version = "4.0.2"
 else:
     import pkg_resources
     neo_version = pkg_resources.get_distribution('neomodel').version
